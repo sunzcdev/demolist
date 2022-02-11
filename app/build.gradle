@@ -7,7 +7,7 @@ android {
 
     defaultConfig {
         applicationId "net.sunzc.myapplication2"
-        minSdk 23
+        minSdk 21
         targetSdk 31
         versionCode 1
         versionName "1.0"
@@ -46,4 +46,8 @@ dependencies {
     implementation "androidx.camera:camera-view:1.1.0-beta01"
     // If you want to additionally use the CameraX Extensions library
     implementation "androidx.camera:camera-extensions:1.1.0-beta01"
+
+    // https://mvnrepository.com/artifact/androidx.core/core-splashscreen
+    implementation 'androidx.core:core-splashscreen:1.0.0-beta01'
+
 }
